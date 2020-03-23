@@ -11,7 +11,9 @@ int data;
 struct node *next;
 };
  
-  Program to create a simple linked list with 3 nodes
+ -Program to create a simple linked list with 3 nodes
+  #include<stdio.h>
+  #include<malloc.h>
 int main()
 {
     struct Node* head = NULL;
